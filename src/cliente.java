@@ -11,7 +11,7 @@ public class cliente{
 	int login = 1409994147;
 	int senha = 6666;
 
-	
+
 	Scanner entrada = new Scanner(System.in);
 	String str;
 	System.out.println(" entre com seu nome: ");
@@ -37,6 +37,7 @@ public class cliente{
 		else{
 			System.out.println(" CPF ou senha inválidos");
 		}
+	}
 	if(escolha == 2){
 			System.out.println("Digite seu CPF: ");
 
@@ -45,20 +46,19 @@ public class cliente{
 			System.out.println("digite uma senha numérica de 4 á 6 caractéres");
 
 			int senha2 = entrada.nextInt();
+    	
+		System.out.println("seja bem-vindo"+ (" ") + str + (" ")+("é muito bom ter você aqui como nosso cliente"));
 
+		int user = cadastro2;
+		int password = senha2;	
+		
+	};
+ 
+	 
 
-
-
-
-		}
-
-	 };
-
-
-
+		
 	
-
-}
+	}
 
 
 
